@@ -3,7 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueAnimXYZ from '@animxyz/vue'
+import '@animxyz/core' // Import css here if you haven't elsewhere
+import Particles from "particles.vue";
 
+Vue.use(Particles);
+Vue.use(VueAnimXYZ)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
